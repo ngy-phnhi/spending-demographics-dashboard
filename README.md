@@ -1,6 +1,7 @@
 <img width="1343" height="767" alt="image" src="https://github.com/user-attachments/assets/20721db9-cbe1-4391-b1d0-f2dc7d30dc99" />
 
 # Income, Spending, and Saving Overview by Demographic Group
+[Group Project]
 
 ## 📌 Table of Contents
 
@@ -10,6 +11,7 @@
 4. [✅ Recommendations by Structure](#-recommendations-by-structure)
 5. [Tools Used](#tools-used)
 6. [File](#file)
+7. [Summary of Data Generation Process](#summary-of-data-generation-process)
 
 ---
 
@@ -156,4 +158,17 @@ A scatter plot explores the correlation among total spending, income, and saving
 
 ---
 
+## Summary of Data Generation Process
 
+The synthetic dataset used in this analysis was prepared by a team member and generated to reflect realistic financial behavior patterns based on official statistics. The process involved:
+
+* Referencing **Bureau of Labor Statistics (BLS.gov)** data for consumer spending by age group (2023)
+* Using `reference-person-age-ranges-2023.xlsx` as a guide for statistical means and distributions
+* Simulating realistic values in a base dataset (`financial-literacy-data.csv`) that reflect spending across major life expenses
+* Ensuring that no actual personal data was used, while maintaining data structure and variance close to real-world patterns
+
+This allowed the team to analyze and visualize financial patterns with confidence while maintaining privacy and ethical standards.
+
+---
+
+*This project demonstrates the use of demographic segmentation in financial analysis and supports data-driven personal finance planning.*
